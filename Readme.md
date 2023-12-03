@@ -71,7 +71,7 @@ To make the net learn, the output is subtracted from the target values. Then the
 net:
 
 ```math
-\Delta w_{jk} = \alpha \cdot E_b \cdot O_b (1 - O_b) \cdot O_a^T
+\Delta w_{ab} = \alpha \cdot E_b \cdot O_b (1 - O_b) \cdot O_a^T
 ```
 
 The learning rate is multiplied by the error, the differentiated sigmoid function and the transposed matrix of the
